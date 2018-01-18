@@ -1,0 +1,119 @@
+Received Message:
+<HEL.R01>
+  <HDR>
+    <HDR.control_id V="810001" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T12:31:55-05:00" />
+  </HDR>
+  <DEV>
+    <DEV.device_id V="HemoSonics^Quantra^SimulatorMode" />
+    <DEV.serial_id V="SimulatorMode" />
+    <DEV.manufacturer_name V="HemoSonics" />
+    <DEV.sw_version V="1.3.15" />
+    <DEV.device_name V="Quantra" />
+    <DCP>
+      <DCP.application_timeout V="240000" />
+    </DCP>
+    <DSC>
+      <DSC.connection_profile_cd V="SA" />
+      <DSC.topics_supported_cd V="DTV" />
+      <DSC.topics_supported_cd V="OP_LIST" />
+      <DSC.topics_supported_cd V="OP_LIST_I" />
+      <DSC.topics_supported_cd V="PT_LIST" />
+      <DSC.topics_supported_cd V="PT_LIST_I" />
+      <DSC.directives_supported_cd V="SET_TIME" />
+      <DSC.max_message_sz V="100000" />
+    </DSC>
+  </DEV>
+</HEL.R01>
+
+Sent Message:
+<ACK.R01>
+  <HDR>
+    <HDR.control_id V="9001" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T12:31:55-05:00" />
+  </HDR>
+  <ACK>
+    <ACK.type_cd V="AA" />
+    <ACK.ack_control_id V="810001" />
+  </ACK>
+</ACK.R01>
+
+Received Message:
+<DST.R01>
+  <HDR>
+    <HDR.control_id V="810002" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T12:31:55-05:00" />
+  </HDR>
+  <DST>
+    <DST.status_dttm V="2017-11-30T12:31:55-05:00" />
+    <DST.new_observations_qty V="0" />
+    <DST.condition_cd V="R" />
+  </DST>
+</DST.R01>
+
+Sent Message:
+<ACK.R01>
+  <HDR>
+    <HDR.control_id V="9002" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T12:31:56-05:00" />
+  </HDR>
+  <ACK>
+    <ACK.type_cd V="AA" />
+    <ACK.ack_control_id V="810002" />
+  </ACK>
+</ACK.R01>
+
+Sent Message:
+<PTL.R01>
+  <HDR>
+    <HDR.control_id V="9003" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T12:31:56-05:00" />
+  </HDR>
+  <PT>
+    <PT.patient_id V="Patient Test" />
+    <PT.name V="P-1" />
+  </PT>
+</PTL.R01>
+
+Received Message:
+<ACK.R01>
+  <HDR>
+    <HDR.control_id V="810003" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T12:31:56-05:00" />
+  </HDR>
+  <ACK>
+    <ACK.type_cd V="AA" />
+    <ACK.ack_control_id V="9003" />
+  </ACK>
+</ACK.R01>
+
+Sent Message:
+<EOT.R01>
+  <HDR>
+    <HDR.control_id V="9004" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T12:31:56-05:00" />
+  </HDR>
+  <EOT>
+    <EOT.topic_cd V="PTL" />
+  </EOT>
+</EOT.R01>
+
+Sent Message:
+<END.R01>
+  <HDR>
+    <HDR.control_id V="9005" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T12:31:56-05:00" />
+  </HDR>
+  <TRM>
+    <TRM.reason_cd V="NRM" />
+  </TRM>
+</END.R01>
+
