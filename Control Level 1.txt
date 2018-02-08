@@ -1,0 +1,41 @@
+Received Message:
+<HEL.R01>
+  <HDR>
+    <HDR.control_id V="810001" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T09:47:06-05:00" />
+  </HDR>
+  <DEV>
+    <DEV.device_id V="HemoSonics^Quantra^SimulatorMode" />
+    <DEV.serial_id V="SimulatorMode" />
+    <DEV.manufacturer_name V="HemoSonics" />
+    <DEV.sw_version V="1.3.15" />
+    <DEV.device_name V="Quantra" />
+    <DCP>
+      <DCP.application_timeout V="240000" />
+    </DCP>
+    <DSC>
+      <DSC.connection_profile_cd V="SA" />
+      <DSC.topics_supported_cd V="DTV" />
+      <DSC.topics_supported_cd V="OP_LIST" />
+      <DSC.topics_supported_cd V="OP_LIST_I" />
+      <DSC.topics_supported_cd V="PT_LIST" />
+      <DSC.topics_supported_cd V="PT_LIST_I" />
+      <DSC.directives_supported_cd V="SET_TIME" />
+      <DSC.max_message_sz V="100000" />
+    </DSC>
+  </DEV>
+</HEL.R01>
+
+Sent Message:
+<ACK.R01>
+  <HDR>
+    <HDR.control_id V="9001" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T09:47:06-05:00" />
+  </HDR>
+  <ACK>
+    <ACK.type_cd V="AA" />
+    <ACK.ack_control_id V="810001" />
+  </ACK>
+</ACK.R01>
