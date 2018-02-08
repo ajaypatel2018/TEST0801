@@ -1,4 +1,4 @@
-
+TEST
 <HEL.R01>
   <HDR>
     <HDR.control_id V="810001" />
