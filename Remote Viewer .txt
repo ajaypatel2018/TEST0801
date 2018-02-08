@@ -14,6 +14,7 @@ Received Message:
     <HDR.version_id V="POCT01" />
     <HDR.creation_dttm V="2017-11-30T08:14:51-05:00" />
   </HDR>
+   < TEST- ADDED THIS LINE > ON 2/8/2018 AT 1:18 PM>
   <DEV>
     <DEV.device_id V="HemoSonics^Quantra^SimulatorMode" />
     <DEV.serial_id V="SimulatorMode" />
