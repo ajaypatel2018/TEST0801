@@ -1,3 +1,12 @@
+
+<HEL.R01>
+  <HDR>
+    <HDR.control_id V="810001" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T08:14:51-05:00" />
+  </HDR>
+  <DEV>
+
 Received Message:
 <HEL.R01>
   <HDR>
@@ -26,3 +35,4 @@ Received Message:
     </DSC>
   </DEV>
 </HEL.R01>
+
